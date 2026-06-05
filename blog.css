@@ -1,0 +1,208 @@
+/* stylelint-disable selector-list-comma-newline-after */
+
+.blog-header {
+  line-height: 1;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.blog-header-logo {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+  font-size: 2.25rem;
+}
+
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+}
+
+.display-4 {
+  font-size: 2.5rem;
+}
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 3rem;
+  }
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-scroller .nav-link {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
+}
+
+.nav-bar {
+  margin: 0 auto 0 auto;
+  display: block;
+}
+
+.card-img-right {
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+}
+
+.flex-auto {
+  flex: 0 0 auto;
+}
+
+.div-deg{
+  width: 75%;
+  margin: auto;
+}
+
+.content-section{
+  background-color: rgb(237, 219, 200);
+  display: flex;
+  align-items: center; /* Vertically aligns text and image */
+  justify-content: space-between; /* Pushes text to left, image to right */
+  gap: 20px; /* Adds space between text and image */
+  max-width: 1350px; /* Matches your website container width */
+  margin: 40px auto; /* Centers the section and adds space above footer */
+  padding: 0 20px;
+}
+
+.text-block {
+  flex: 1; /* Takes up proportional space */
+}
+
+.my_img{
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(image/NavaDha.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 400px;
+  width: auto;
+}
+
+.my_img2{
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(image/Wandani4.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 400px;
+  width: auto;
+}
+
+.article-content {
+    background-color: rgba(0, 0, 0, 1); /* Optional: Adds dark overlay for readability */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.h-250 { height: 250px; }
+@media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}
+
+/* Pagination */
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+.blog-pagination > .btn {
+  border-radius: 2rem;
+}
+
+/*
+ * Blog posts
+ */
+.blog-post {
+  margin-bottom: 4rem;
+}
+.blog-post-title {
+  margin-bottom: .25rem;
+  font-size: 2.5rem;
+}
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #727272;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+  font-size: 3.5rem;
+  }
+}
+
+/*
+ * Footer
+ */
+.blog-footer {
+  padding: 2.5rem 0;
+  color: #fff9f9;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: .05rem solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+
+ * {box-sizing:border-box}
+
+.post-card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); /* Soft shadow makes it look separate */
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px; /* Spaces out the title, image, and link cleanly inside the card */
+}
+
+.bg-info-subtle {
+  background-color: beige;
+
+}
+.img_body{
+  width: auto;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.button-map{
+  background-color: #ffe4d8;
+  margin-top: 15px;
+  border-radius: 10%;
+}
+
+.image-sekolah {
+  flex: 1; /* Takes up proportional space */
+  text-align: right;
+}
+
+.image-sekolah img{
+  max-width: 450px;
+  height: auto;
+  float: right;
+  border: 1px solid white;
+  border-radius: 5%;
+}
