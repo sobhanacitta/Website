@@ -103,6 +103,23 @@ h1, h2, h3, h4, h5, h6 {
   width: auto;
 }
 
+.my_img3{
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(image/Halaman.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 400px;
+  width: auto;
+}
+.my_img4{
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(image/Bodhiarama.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 400px;
+  width: auto;
+}
+
 .article-content {
     background-color: rgba(0, 0, 0, 1); /* Optional: Adds dark overlay for readability */
     padding: 20px;
