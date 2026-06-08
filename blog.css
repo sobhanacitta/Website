@@ -223,3 +223,11 @@ h1, h2, h3, h4, h5, h6 {
   border: 1px solid white;
   border-radius: 5%;
 }
+
+.image-yayasan img{
+  max-width: 550px;
+  height: auto;
+  float: right;
+  border: 1px solid white;
+  border-radius: 5%;
+}
