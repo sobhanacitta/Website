@@ -205,6 +205,13 @@ h1, h2, h3, h4, h5, h6 {
   object-position: center;
 }
 
+.img_body_new{
+  width: auto;
+  height: 400px;
+  object-fit: cover;
+  object-position: 0px -120px;
+}
+
 .button-map{
   background-color: #ffe4d8;
   margin-top: 15px;
